@@ -1,0 +1,32 @@
+/* Bootstrap icon import */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*  */
+.container {
+    width: 20rem;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    margin-inline: auto;
+    padding-inline: 1rem;
+    padding-block: .2rem;
+}
+#output, 
+.row{
+    max-width: 100%;
+}
+.container>* {
+    margin-block: .2rem;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.d-flex-column {
+    display: flex;
+    flex-flow: column wrap;
+}
