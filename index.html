@@ -10,9 +10,9 @@
 <body>
     <div class="container">
         <div class="row">
-            <input type="text" id="output">
+            <input type="text" id="output" readonly>
         </div>
-        <div class="row d-flex">
+        <div class="row d-flex space-between">
             <button id="clear">CE</button>
             <button id="backspace">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backspace" viewBox="0 0 16 16">
@@ -21,7 +21,7 @@
                 </svg>
             </button>
         </div>
-        <div class="row d-flex">
+        <div class="row d-flex space-between">
             <div class="numbers">
                 <button onclick="display(1)">1</button>
                 <button onclick="display(2)">2</button>
@@ -35,7 +35,7 @@
                 <button onclick="display(0)">0</button>
                 <button onclick="display('.')">.</button>
             </div>
-            <div class="operators d-flex-column">
+            <div class="operators d-flex-column gap-2">
                 <button id="division">/</button>
                 <button>*</button>
                 <button>-</button>

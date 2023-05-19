@@ -7,6 +7,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* Utilities - classes */
+.d-flex {
+    display: flex;
+}
+.space-between {
+    justify-content: space-between;
+}
+.flex-column {
+    flex-flow: column wrap;
+}
+.d-grid {
+    display: grid;
+}
 /*  */
 .container {
     width: 20rem;
@@ -15,18 +28,24 @@
     padding-inline: 1rem;
     padding-block: .2rem;
 }
-#output, 
-.row{
-    max-width: 100%;
-}
 .container>* {
     margin-block: .2rem;
 }
-.d-flex{
-    display: flex;
-    justify-content: space-between;
+.container button{
+    padding-inline: .5rem;
 }
-.d-flex-column {
-    display: flex;
-    flex-flow: column wrap;
+
+.operators button {
+    box-shadow:  -5px 6px 19px 0px rgba(0,0,0,0.75);;
 }
+.numbers button, .operators button{
+    margin-block: .1rem;
+}
+#output {
+    text-align: right;
+}
+#output, 
+.row{
+    width: 100%;
+}
+/* Buttons */
